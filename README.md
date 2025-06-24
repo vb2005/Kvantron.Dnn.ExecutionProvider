@@ -16,6 +16,6 @@
     from ultralytics import YOLO
     model = YOLO(r"last.pt")
     model.export(format="onnx") 
-```
+   ```
 
 3. Загружаем к себе и profit
